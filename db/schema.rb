@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160217160046) do
+ActiveRecord::Schema.define(version: 20160217174112) do
 
-  create_table "actions", force: :cascade do |t|
-    t.string   "nom"
+  create_table "actios", force: :cascade do |t|
+    t.string   "nom_action"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -26,8 +26,6 @@ ActiveRecord::Schema.define(version: 20160217160046) do
   end
 
   create_table "transactions", force: :cascade do |t|
-    t.integer  "trader_id"
-    t.integer  "action_id"
     t.integer  "quantity"
     t.datetime "date_transaction"
     t.datetime "created_at",       null: false
