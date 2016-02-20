@@ -1,4 +1,4 @@
 class Transaction < ActiveRecord::Base
   belongs_to :trader
-  belongs_to :actio
+  belongs_to :action
 end

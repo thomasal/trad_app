@@ -1,9 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  prix: 1.5
   quantity: 1
-  date_transaction: 2016-02-17 18:40:38
+  date_transaction: 2016-02-20 21:38:33
+  trader_id: 
+  action_id: 
 
 two:
+  prix: 1.5
   quantity: 1
-  date_transaction: 2016-02-17 18:40:38
+  date_transaction: 2016-02-20 21:38:33
+  trader_id: 
+  action_id: 

@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  resources :actios
+  resources :transactions
   resources :transactions
   resources :traders
+  resources :equities
+  resources :equities
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

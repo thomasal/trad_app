@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th>Nom</th>
+      <th>Nom trader</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -13,7 +13,7 @@
   <tbody>
     <% @traders.each do |trader| %>
       <tr>
-        <td><%= trader.nom %></td>
+        <td><%= trader.nom_trader %></td>
         <td><%= link_to 'Show', trader %></td>
         <td><%= link_to 'Edit', edit_trader_path(trader) %></td>
         <td><%= link_to 'Destroy', trader, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -1,6 +1,6 @@
-class CreateActios < ActiveRecord::Migration
+class CreateEquities < ActiveRecord::Migration
   def change
-    create_table :actios do |t|
+    create_table :equities do |t|
       t.string :nom_action
 
       t.timestamps null: false

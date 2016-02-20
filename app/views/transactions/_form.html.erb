@@ -12,12 +12,24 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :prix %><br>
+    <%= f.text_field :prix %>
+  </div>
+  <div class="field">
     <%= f.label :quantity %><br>
     <%= f.number_field :quantity %>
   </div>
   <div class="field">
     <%= f.label :date_transaction %><br>
     <%= f.datetime_select :date_transaction %>
+  </div>
+  <div class="field">
+    <%= f.label :trader_id %><br>
+    <%= f.text_field :trader_id %>
+  </div>
+  <div class="field">
+    <%= f.label :action_id %><br>
+    <%= f.text_field :action_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

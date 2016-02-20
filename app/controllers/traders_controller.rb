@@ -69,7 +69,6 @@ class TradersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def trader_params
-      params.require(:trader).permit(:nom)
-      
+      params.require(:trader).permit(:nom_trader)
     end
 end

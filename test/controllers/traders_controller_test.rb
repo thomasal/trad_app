@@ -18,7 +18,7 @@ class TradersControllerTest < ActionController::TestCase
 
   test "should create trader" do
     assert_difference('Trader.count') do
-      post :create, trader: { nom: @trader.nom }
+      post :create, trader: { nom_trader: @trader.nom_trader }
     end
 
     assert_redirected_to trader_path(assigns(:trader))
@@ -35,7 +35,7 @@ class TradersControllerTest < ActionController::TestCase
   end
 
   test "should update trader" do
-    patch :update, id: @trader, trader: { nom: @trader.nom }
+    patch :update, id: @trader, trader: { nom_trader: @trader.nom_trader }
     assert_redirected_to trader_path(assigns(:trader))
   end
 
