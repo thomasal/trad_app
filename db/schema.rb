@@ -13,23 +13,4 @@
 
 ActiveRecord::Schema.define(version: 20160217174112) do
 
-  create_table "actios", force: :cascade do |t|
-    t.string   "nom_action"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "traders", force: :cascade do |t|
-    t.string   "nom"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "transactions", force: :cascade do |t|
-    t.integer  "quantity"
-    t.datetime "date_transaction"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
-  end
-
 end
