@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   resources :transactions
-  resources :transactions
   resources :traders
   resources :equities
   resources :equities
